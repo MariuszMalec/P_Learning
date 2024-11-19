@@ -2,7 +2,7 @@ import unittest
 import P_TaskSmallestPositiveInteger as Solution
 
 
-class Test_SmallestPositiveInteger(unittest.TestCase):
+class test_SmallestPositiveInteger(unittest.TestCase):
 
     def test_solution_Return5(self):
         lista = [1, 3, 6, 4, 1, 2]
