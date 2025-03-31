@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{d8f298e1-42f2-4116-9850-b1eadce8ec7d}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>P_ConnectToDataBase.py</StartupFile>
+    <StartupFile>P_Learning.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
