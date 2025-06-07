@@ -2,7 +2,7 @@ import os
 import sys, csv
 import P_Logger
 
-class CsvManager:
+class CsvService:
     __allValues = []
     __fileName = ""
     
@@ -50,7 +50,7 @@ def main():
             P_Logger.logger.error('brak katalogu!')
             sys.exit()
     file = os.path.join(folder, "LADT1100P1002.csv")    
-    service = CsvManager()
+    service = CsvService()
     service.setFileName(file)
     service.load()
     dn = service.getVar("DN")

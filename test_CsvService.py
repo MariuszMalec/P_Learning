@@ -2,7 +2,7 @@ import os
 import sys
 import unittest
 
-from P_CsvService import CsvManager
+from P_CsvService import CsvService
 
 
 def init_service():
@@ -10,7 +10,7 @@ def init_service():
     if not (os.path.dirname(folder)):
         sys.exit()
     file = os.path.join(folder, "LADT1100P1002.csv")
-    service = CsvManager()
+    service = CsvService()
     service.setFileName(file)
     service.load()
     return service
